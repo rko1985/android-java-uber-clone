@@ -7,22 +7,22 @@
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.1.2"
-    timestamp="1586887752773"
+    timestamp="1586891575901"
     token="9113984539132077930"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="613" />
+        duration="377" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="62" />
+        duration="41" />
     <task
         name="verifier"
-        duration="9" />
+        duration="4" />
 
     <artifact
         location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -30,8 +30,9 @@
 
     <build
         build-mode="FULL"
-        timestamp="1586886669736"
-        verifier="FULL_BUILD_REQUESTED" >
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1586889788514"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
@@ -39,22 +40,28 @@
             location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -63,19 +70,40 @@
             location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\instant-run-apk\debug\ParseStarterProject-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1586890805492"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1586891283009"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1586887752773"
+        timestamp="1586891575901"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\russe\AndroidStudioProjects\UberClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
