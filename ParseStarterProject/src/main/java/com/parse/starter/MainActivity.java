@@ -25,6 +25,15 @@ import com.parse.SaveCallback;
 
 public class MainActivity extends AppCompatActivity {
 
+  public void redirectActivity(){
+
+    if(ParseUser.getCurrentUser().get("riderOrDriver").equals("rider")){
+      Intent intent = new Intent(getApplicationContext(), RiderActivity.class);
+      startActivity(intent);
+    }
+
+  }
+
   public void getStarted(View view){
     Switch userTypeSwitch = (Switch) findViewById(R.id.userTypeSwitch);
     Log.i("Switch Value", String.valueOf(userTypeSwitch.isChecked()));
@@ -37,7 +46,16 @@ public class MainActivity extends AppCompatActivity {
 
     ParseUser.getCurrentUser().put("riderOrDriver", userType);
 
+    ParseUser.getCurrentUser().saveInBackground(new SaveCallback() {
+      @Override
+      public void done(ParseException e) {
+        redirectActivity();
+      }
+    });
+
     Log.i("Info", "Redirecting as " + userType);
+
+
   }
 
 
@@ -62,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
     }else{
       if(ParseUser.getCurrentUser().get("riderOrDriver") != null){
         Log.i("Info", "Redirecting as " + ParseUser.getCurrentUser().get("riderOrDriver"));
+        redirectActivity();
       }
     }
 
