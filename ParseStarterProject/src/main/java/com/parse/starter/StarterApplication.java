@@ -36,7 +36,7 @@ public class StarterApplication extends Application {
             .build()
     );
 
-
+//    ParseUser.logOut();
 
 //    ParseUser.enableAutomaticUser();
 

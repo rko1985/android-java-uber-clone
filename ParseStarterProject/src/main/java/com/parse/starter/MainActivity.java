@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
     if(ParseUser.getCurrentUser().get("riderOrDriver").equals("rider")){
       Intent intent = new Intent(getApplicationContext(), RiderActivity.class);
       startActivity(intent);
+    }else{
+      Intent intent = new Intent(getApplicationContext(), ViewRequestsActivity.class);
+      startActivity(intent);
     }
 
   }
@@ -43,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
     if(userTypeSwitch.isChecked()){
       userType = "driver";
     }
+
+    Log.i("INFO", userType);
 
     ParseUser.getCurrentUser().put("riderOrDriver", userType);
 
@@ -65,6 +70,8 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
 
     getSupportActionBar().hide();
+
+
 
     if(ParseUser.getCurrentUser() == null){
       ParseAnonymousUtils.logIn(new LogInCallback() {

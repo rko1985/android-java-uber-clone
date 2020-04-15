@@ -1,4 +1,4 @@
-#Tue Apr 14 10:28:48 HST 2020
+#Wed Apr 15 10:48:24 HST 2020
 base.0=C\:\\Users\\russe\\AndroidStudioProjects\\UberClone\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\10
 path.1=classes2.dex
 renamed.1=classes2.dex
