@@ -1,4 +1,4 @@
-#Wed Apr 15 13:00:03 HST 2020
+#Thu Apr 16 10:04:25 HST 2020
 base.0=C\:\\Users\\russe\\AndroidStudioProjects\\UberClone\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.1=classes2.dex
 renamed.0=classes.dex

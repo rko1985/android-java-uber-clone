@@ -934,6 +934,7 @@ com/google/android/gms/games/Games.class
 android/support/v4/app/FragmentManager.class
 com/google/android/gms/location/places/personalized/PlaceUserData.class
 com/google/android/gms/internal/zzjm.class
+com/parse/starter/RiderActivity$5.class
 com/google/android/gms/internal/zzcu.class
 com/google/android/gms/internal/zzqc.class
 com/google/android/gms/ads/search/SearchAdRequest.class

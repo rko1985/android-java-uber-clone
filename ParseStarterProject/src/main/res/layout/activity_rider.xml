@@ -19,6 +19,8 @@ tools:context=".MainActivity">
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
         tools:context=".RiderActivity" />
 
     <Button
@@ -42,4 +44,12 @@ tools:context=".MainActivity">
         android:layout_marginTop="25dp"
         android:onClick="logout"
         android:text="Logout" />
+
+    <TextView
+        android:id="@+id/infoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/callUberButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="59dp" />
 </RelativeLayout>
